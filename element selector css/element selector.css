@@ -1,0 +1,9 @@
+/* elemental selector select all elements of same type. */
+h1{
+    color: purple;
+
+}
+h2,h3{
+    color: aqua;
+    background-color: black;
+}
