@@ -1,0 +1,29 @@
+
+h1{
+    text-decoration:underline
+}
+h2{
+    text-decoration: overline;
+}
+h3{
+    text-decoration: line-through;
+}
+/* color change */
+h4{
+    text-decoration:red underline;
+}
+/* style change */
+h5{
+    text-decoration: wavy overline ;
+}
+/* color and style change */
+h6{
+    text-decoration: dotted blue line-through;
+}
+p{
+    text-decoration: double green underline;
+}
+/* text decoration can be used to remove underline of anchor tag */
+a{
+    text-decoration: none;
+}
