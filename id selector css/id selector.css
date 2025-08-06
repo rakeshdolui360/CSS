@@ -1,0 +1,8 @@
+ /* id selector select element based on  their id */
+#login{
+    background-color:rgb(234, 5, 5);
+}
+#signup{
+    color: aqua;
+    background-color: black;
+}
