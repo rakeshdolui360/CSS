@@ -1,0 +1,6 @@
+/* universal selector select everything in a document */
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aqua;
+    color: black;
+}
