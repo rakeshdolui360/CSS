@@ -1,0 +1,15 @@
+/* attribute selector select element base on value or presence of a given attribute. */
+
+/* when we type something it will  be seen in red color */
+input[type="text"]{
+    color: red;  
+}
+
+/* when we type something it will  be seen in green color */
+input[type="password"]{
+    color: green;
+}
+/* all type attribute is selected by input[type] attribute selector */
+input[type]{
+    background-color: aqua;
+}
