@@ -1,0 +1,23 @@
+ /* p a {} desendant selector selects all anchor tag under p tag */
+p a{
+    color:red;
+}
+/* .post a{} desendant selector selects all anchor tag under class="post" */
+.post a{
+    color: aqua;
+}
+/* nav ul li{} desendant selector selects all list tag under nav,ul. in this case only circular list color will be changed ,nothing will happen in anchor tag */
+
+nav ul li{
+    color: brown;
+}
+/*  nav ul li a{} desendant selector selects all anchor tag under nav,ul,li .in this case only anchor tag  color will be changed ,nothing will happen in circular list */
+ 
+
+nav ul li a{
+    color: greenyellow;
+}
+/* nav a{
+
+} it is similar to previous one.
+ */
