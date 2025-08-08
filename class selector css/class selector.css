@@ -1,0 +1,8 @@
+/*  at first h1,button,p tag are given class="a" then class selector is applied on css. */
+.a{
+    color: red;
+}
+/* all upvote and answer button are given class="upvote" then class selector is applied on css" */
+.upvote{
+    color: green;
+}
