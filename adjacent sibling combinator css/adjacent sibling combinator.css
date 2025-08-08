@@ -1,0 +1,9 @@
+/* p+h3 adjacent sibling combinator combine all p and immediate next h3. p and h3 are in same same level.all changes happen in h3 */
+p+h3{
+    text-decoration: underline;
+}
+/* .upvote+button adjacent sibling combinator combine all class="upvote" and immediate next button. class="upvote"  and button are in same same level.all changes happen in button */
+
+.upvote+button{
+    background-color: blue;
+}
