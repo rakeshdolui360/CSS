@@ -1,0 +1,14 @@
+/* h1::first-letter ,pseudo element changes " h1" first letter color into red.  */
+h1::first-letter{
+    color: red;
+}
+/*  p::first-line  pseudo element changes "p" tag first line color into greenyellow.*/
+p::first-line{
+    color: greenyellow;
+
+}
+/* whenever we select something in p tag section changes will occur according to below condition  */
+p::selection{
+    color: aqua;
+    background-color: brown;
+}
