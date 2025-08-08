@@ -1,0 +1,22 @@
+/* whenever we hover on any "button" ,color will change into red and background will change into black */
+button:hover{
+    color:red;
+    background-color: black;
+}
+
+/* whenever we click on any "button" ,color will change into blue and background will change into hotpink */
+button:active{
+    color: blue;
+    background-color: hotpink;
+} 
+
+/* whenever we click on any "p" tag portion, color will change into green and font-weight will change into bold. */
+p:active{
+ font-weight: bold;
+ color: green;
+}
+/* if type radio is checked then ,adjacent sibling combinator "label" color will change into red and font weight will change into bold */
+input[type="radio"]:checked+label{
+    color: red;
+    font-weight: bold;
+}
