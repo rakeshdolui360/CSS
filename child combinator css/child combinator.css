@@ -1,0 +1,8 @@
+/* child combinator can be applied in case of direct child  */
+div>input{
+    background-color: black;
+}
+span>button{
+    color: aqua;
+}
+/* nav>a  can not be appliedc as a tag is not direct child of nav */
