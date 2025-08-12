@@ -1,0 +1,24 @@
+
+h1{
+    border: 5px solid black;
+    width: 50%;
+}
+/* percentage is relative to  size of an element's parent object.
+here body is parent for h1. */
+#outer{
+    height: 200px;
+    width: 400px;
+    border: 2px solid black;
+    background-color: greenyellow;
+    margin: 50px;
+}
+#inner{
+     height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: blue;
+    margin: 10%;
+
+}
+
+/* margin: 10%; of inner element is relative to 10% of outer div  width ( 400px) which is 40 px  */
