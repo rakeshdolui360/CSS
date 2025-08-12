@@ -1,0 +1,5 @@
+
+h1{
+    color: aqua !important;
+}
+/* to show the most specific thing  ! important is used. it's priority is more than inline style . */
