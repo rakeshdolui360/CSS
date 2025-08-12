@@ -1,0 +1,51 @@
+
+/* margin all side */
+.div1{
+     width: 200px;
+    height: 400px;
+    background-color: aqua;
+    margin: 70px;
+  
+}
+
+/* specific margin side */
+.div2{
+     width: 200px;
+    height: 400px;
+    background-color: red;
+    margin-left: 50px;
+    margin-right: 60px;
+  
+}
+
+/* top&bottom || left&right */
+.div3{
+     width: 200px;
+    height: 400px;
+    background-color: green;
+    margin:  10px 70px;
+  
+}
+
+/* top||left&right||bottom */
+.div4{
+     width: 200px;
+    height: 400px;
+    background-color: yellow;
+    margin: 70px 50px 60px ;
+  
+}
+
+/* top|right|bottom|left */
+.div5{
+     width: 200px;
+    height: 400px;
+    background-color: blue;
+    margin:10px 20px 30px 40px ;
+  
+}
+
+/* heading margin is give by default.to remove all margin in h1  margin:0; is used.  */
+h1{
+    margin:0;
+}
