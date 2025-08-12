@@ -1,0 +1,11 @@
+ 
+h2{
+    display: inline;
+    /* now h2 will be treated as inline element */
+    background-color: aqua;
+}
+span{
+    display: block;
+    /* now span will be treated as block element */
+    background-color: brown;
+} 
