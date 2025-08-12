@@ -1,0 +1,29 @@
+
+.div{
+ background-color: greenyellow;
+}
+/* div  background color is given .so it will inherit to p tag and ul list */
+
+.p{
+    background-color: brown;
+}
+/* p tag background color is given.so it will turn into brown.but  ul list's color is not given so it will inherit from div's  background color */
+
+.form{
+    background-color: red;
+}
+/*  form's  background color , by default does not inherit to  input box and button .it is seen in white color. */
+/* to inherit propertis by default  background-color: inherit; is used */
+
+#input{
+    background-color: inherit;
+}
+#button{
+    background-color: inherit;
+
+}
+/* button:hover{
+    background-color: black;
+}  uncomment it then check  hover in web page */
+
+/* width height border are non herited properties */
