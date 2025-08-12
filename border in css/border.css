@@ -1,0 +1,55 @@
+
+/* border  all side */
+.div1{
+     width: 500px;
+    height: 200px;
+    background-color: aqua;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+  /* shorthand for border all side  width,style and color */
+.div2{
+     width: 700px;
+    height: 200px;
+    background-color: red;
+    border: 20px dashed black;
+}
+
+/*  specific border side */
+.div3{
+        border: 20px solid blue;
+        border-left: 10px dashed black;
+        border-right: 30px dotted green;
+
+}
+
+
+
+
+/* border radius  all side*/
+.div4{
+    border: 20px dashed violet;
+    /* in pixel unit */
+    border-radius: 30px;
+}
+.div5{
+    height: 200px;
+    width: 200px;
+     border: 20px dashed violet;
+    /* in unit */
+     /* to create circle use %  */
+    border-radius: 50%;
+}
+
+/*  specific border-radius side */
+.div6{
+        border: 20px dashed skyblue;
+         border-top-right-radius: 80px;
+
+}
+
+
+
+
