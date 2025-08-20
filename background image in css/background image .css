@@ -1,0 +1,26 @@
+/*     background-size: contain; does not crop,scale.only repeat */
+#firstdiv{
+    height: 400px;
+    width: 400px;
+    margin: 10px auto;
+    background-image: url(rose.jpg);
+    background-size: contain;
+}
+/*     background-size: cover; does not scale.only crop */
+
+#seconddiv{
+    height: 400px;
+    width: 400px;
+    margin: 10px auto;
+    background-image: url(rose.jpg);
+    background-size:cover;
+}
+/*    background-size: auto; only strech*/
+
+#thirddiv{
+    height: 400px;
+    width: 400px;
+    margin: 10px auto;
+    background-image: url(rose.jpg);
+    background-size: auto;
+}
