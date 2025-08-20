@@ -1,0 +1,58 @@
+/* alpha channel range is 0 to 1 for rgba() format,where 0 means hidden and 1 means completely visible. */
+#firstdiv{
+    height: 200px;
+    width: 200px;
+    background-color:rgba(255,0,0,0) ;
+}
+
+#seconddiv{
+       height: 200px;
+    width: 200px;
+    background-color:rgba(255,0,0,0.5) ;
+
+}
+
+#thirddiv{
+       height: 200px;
+    width: 200px;
+    background-color:rgba(255,0,0,1) ;
+
+}
+/* alpha channel range is 00 to ff for #hash code format,where 00 means hidden and ff means completely visible. */
+
+#fourthdiv{
+      height: 200px;
+    width: 200px;
+    background-color: #00ff0000 ;
+
+}
+#fifthdiv{
+      height: 200px;
+    width: 200px;
+    background-color: #00ff00ff;
+
+}
+/* alpha channel  set opacity  only for color. */
+
+
+
+
+
+/* opacity property set opacity for  all element where 0 means hidden and 1 means completely visible.  */
+
+#sixthdiv{
+      height: 200px;
+    width: 200px;
+    background-color: #0000ff;
+    opacity:0;
+
+}
+
+#seventhdiv{
+      height: 200px;
+    width: 200px;
+    background-color: #0000ffff;
+    opacity:1 ;
+
+
+}
