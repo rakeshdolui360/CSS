@@ -1,0 +1,49 @@
+
+section{
+    margin-top: 100px;
+}
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: green;
+    border: 2px solid black;
+    margin: 10px;
+}
+div:nth-of-type(2n){
+    background-color: orange;
+}
+div:nth-of-type(3n){
+    background-color: yellow;
+}
+
+/* transform:rotate */
+#one{
+    transform: rotate(20deg);
+    /* try 90deg,180deg,-45deg,-180deg */
+   
+}
+
+
+/* transform:scale */
+#two{
+    transform: scale(0.5);
+    /* try scale(0.5,2) scalex(0.5) scaley(0.5) */
+}
+
+/* transform:translate */
+#three{
+    transform: translate(250px,100px);
+    /* try translate(100px) translatex(100px) translatey(100px)  */
+}
+
+/* transform:skew */
+#four{
+    transform: skew(30deg);
+     /* try 90deg,,-45deg, */
+
+}
+#five{
+    transform: rotate(45deg) scale(0.5) translateX(10px) skew(40deg);
+}
+/* transform property act on  element also  */
