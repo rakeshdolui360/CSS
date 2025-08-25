@@ -1,0 +1,24 @@
+
+h1{
+    text-align: center;
+}
+#container{
+    height: 300px;
+    width: 80%;
+    border: 2px solid black;
+    margin: 10px auto;
+    display: flex;
+    /* display: flex; for it ,if total inner div size is less than outer div then it left extra space ,
+    if total size  is larger than outer div overflow will not happen for display: flex; ,every inner div will fit inside the outer div with possible dimension  */
+    flex-direction:row;
+    /* try flex-direction column,row-reverse,column-reverse */
+
+
+}
+#container div{
+    height: 100px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
