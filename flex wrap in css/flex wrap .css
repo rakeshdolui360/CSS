@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+#container{
+    height: 300px;
+    width: 70%;
+    border: 2px solid black;
+    margin: 10px auto;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    /* flex-wrap works along main axis and shift along cross axis */
+    /* try flex-direction: ; row,column,row-reverse,column-reverse */
+    /* try justify-content: ; flex-start,flex-end,center,space-between,space-around,space-evenly,baseline*/
+    /* try flex-wrap: ; nowrap,wrap,wrap-reverse */
+    
+
+}
+#container div{
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
