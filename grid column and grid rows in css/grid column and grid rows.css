@@ -1,0 +1,40 @@
+.container{
+    width: 600px;
+    height: 350px;
+    background-color: black;
+    display:grid;
+    grid-template-rows:repeat(4,1fr);
+    grid-template-columns:1fr 1fr 1fr 1fr;
+
+}
+.item{
+    /* width: 100px;
+    height: 50px; */
+
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.one{
+      /* grid-row-start: 1; means starting row line 1 */
+    /*grid-row-end: 3;  means ending row line 3 */
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+.two{
+    /* grid-column-start: 1; means starting column line 1 */
+    /*grid-column-end: 3;  means ending column line 3 */
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.three{
+    /* grid-column: 2/4; means starting column line 2 and ending column line 4 */
+    grid-column: 2/4;
+}
+.four{
+        /* grid-row: 2/span 3; means starting row line 2 and extend the item till no 3 span from starting line. */
+    grid-row: 2/span 3;
+}
