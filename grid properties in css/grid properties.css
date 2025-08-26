@@ -1,0 +1,47 @@
+.container{
+    width: 600px;
+    height: 350px;
+    background-color: black;
+    display:grid;
+    display: inline-grid;
+    /* now container is treated as inline element not as block element */
+    grid-template-rows:repeat(4,1fr);
+    grid-template-columns:1fr 1fr 1fr 1fr;
+
+    justify-items:end;
+    /* try justify-items: ;  start, end,center */
+    align-items: center;
+    /*  try align-items: ;  start, end,center */
+
+    /* place-items: end;
+    if justify and align items have same property then we write place-items: ;
+    try place-items: ; start,end,center*/
+
+
+}
+
+
+/* justify-self,align-self have more priorities than justify-items and align-items */
+
+.one{
+    justify-self: start;
+    align-self: end;
+    /*  try align-self: ;  start, end,center */
+    /* try justify-self: ;  start, end,center */
+
+    /* place-self: end; */
+    /*if justify and align self have same property then we write place-self: ; 
+     try place-self: ; start,end,center*/
+}
+
+
+
+.item{
+    width: 100px;
+    height: 50px;
+
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}
+
