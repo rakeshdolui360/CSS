@@ -1,0 +1,24 @@
+.container{
+    width: 600px;
+    height: 350px;
+    background-color: black;
+    display:grid;
+    /* grid-template-rows: 100px 100px 100px;
+    grid-template-columns:auto auto auto; */
+
+    grid-template-rows:repeat(3,1fr);
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    /*above both are same .repeat is used to divide available space in equal size.*/
+
+
+
+}
+.item{
+    /* width: 100px;
+    height: 50px; */
+
+    /* if item's height and width is commented out then item will occupy full grid cell defaultly */
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}
