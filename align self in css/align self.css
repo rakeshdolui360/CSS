@@ -26,6 +26,7 @@ h1{
     align-self: flex-start;
 
 }
+/* priority of allign-self is greater than align-items */
 
 
 #container div{
