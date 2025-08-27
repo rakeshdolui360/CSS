@@ -1,0 +1,42 @@
+h1{
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+/* width(of viewport) */
+@media (width:400px){
+    h1{
+        background-color: red;
+        color: white;
+    }
+    div{
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+    }
+}
+
+@media (min-width:700px){
+    h1{
+        background-color: green;
+    }
+}
+@media (max-width:200px){
+    h1{
+        background-color: pink;
+    }
+}
+/* range */
+@media (min-width:201px) and (max-width:399px){
+    h1{
+        background-color: magenta;
+    }
+}
+
+/* orientation(of viewport)  try orientation: landscape and potrait*/
+@media (orientation:potrait ){
+    h1{
+        background-color: aqua;
+        color: brown;
+    }
+}
