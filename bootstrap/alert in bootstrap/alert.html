@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alert</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- normal alert -->
+    <div class="alert alert-danger" role="alert">
+       harmful virus is detected!!!
+    </div>
+
+    <div class="alert alert-danger" role="alert">
+       download failed!! please try again.
+    </div>
+     <div class="alert alert-success" role="alert">
+      congrats! you scored 50/50 in test.
+    </div>
+
+    <!-- alert with link -->
+     <div class="alert alert-danger" role="alert">
+       harmful virus is detected!!!<a href="#">click here</a>to see what is wrong.
+    </div>
+    
+    <div class="alert alert-danger" role="alert">
+       download failed!!<a href="#">click </a>to see the cause.
+    </div>
+      
+    <!-- dismissible alert -->
+     <div class="alert alert-success alert-dismissible" role="alert">
+        congrats
+        <button class="btn-close" data-bs-dismiss="alert"></button>
+     </div>
+ 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
